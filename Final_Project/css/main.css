@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image:url("./TentCraft.png") ;
+        background-color: rgb(33,54,71) ;
+        background-size: 40%;
+        background-attachment: fixed;
+        background-position-x: 85%;
+background-position-y: 100%;
+        background-repeat: no-repeat;
+        text-align:center;
+        margin-left:auto;
+        margin-right:10%;
+        margin-bottom: 5%;
+        margin-top: 7%;
+
+    }
+    h1, h2{
+        display: flex;
+        flex-direction: column;
+        color: rgb(160, 160, 160);
+    }
+    p{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+       margin-left: auto;
+       margin-right: auto;
+        justify-content: center;
+        color: grey;
+    }
+    label{
+
+     color: rgb(160, 160, 160);
+    text-align: center;}
+    
+    legend{
+        color:  rgb(160, 160, 160);
+        text-align: center;
+    }
+  
+    a:link, a:visited{
+       
+        width:150px;
+        border:1px solid rgb(168, 168, 168);
+        border-radius:25px;
+        box-shadow:2px 2px rgb(70, 70, 70);
+        padding:2%;
+        color:rgb(179, 179, 179);
+        text-decoration:none;
+        margin: 6%;
+        margin-right: auto;
+        margin-left: auto;
+    }	
+    a:hover{
+        
+        background-color:rgba(102, 102, 102, 0.897);
+        color:rgb(15, 44, 68);
+    }	
+    
